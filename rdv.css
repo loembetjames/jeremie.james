@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+main{
+      padding: 20px;
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ipt{
+    width: 200px;
+    padding: 10px 5px;
+    border-radius: 10px;
+
+}
+.date{
+    width: 200px;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+select{
+    width: 200px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.para{
+  font-size: 1.2rem;
+}
+
+.content-form{
+    box-shadow: 1px -2px 9px 0 black;
+     background: beige;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.cfm{
+    width: 200px;
+}
+
+.contact-form{
+    border: 1px solid black;
+    box-shadow: 1px -2px 9px 0 black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btn{
+    padding: 10px 0;
+    
+    
+}
+button{
+    border-radius: 10px;
+    width: 200px;
+}
+.btn:hover{
+    background-color: #FCD116;
+    transition: all 1s ease;
+    color: white;
+}
+.technicien{
+  background-image: url(./Image1/male-technician-examining-mother-board-with-digital-multimeter.jpg);
+  text-align: center;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+ 
+}
+.nav-content{
+  gap: 50px;
+  margin: auto;
+  
+}
+.nav-content ul li{
+  display: block;
+  padding: 2px;
+  background-color: #fff;
+  
+}
+ul{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+li a{
+  text-decoration: none;
+  word-spacing: 10px;
+  font-size: 2.3rem;
+}
+.active{
+  color: red;
+}
+h3{
+  text-align: center;
+ font-size: 1.6rem;
+  color:#FCD116;
+  padding-bottom: 20px;
+}
+.p3{
+  color: black;
+  font-size: 1.5rem;
+
+}
+h1{
+  color: white;
+  box-shadow: 0px 2px 18px 10px beige;
+  font-weight: bold;
+  font-size: 3.4rem;
+  text-align: center;
+  width: 70%;
+  margin: 30px auto;
+
+}
+
+
+
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.74);
+    display: block;
+    justify-content: space-around;
+}
+.foot{
+    margin: 20px 0;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.p7{
+    font-size: 2.3rem;
+    color: #FCD116;
+
+}
+
+
+.ligne-droite{
+    padding: 0 30px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.face{
+    height: 32px;
+    width: 32px;
+}
+.p6{
+    font-size: 2rem;
+    padding-bottom: 10px;
+    color:white;
+}
+.p7{
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+  .content-form{
+    gap: 50px;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+  .rapide{
+    flex-direction: column;
+    align-content: center;
+  }
+  .ipad-image{
+    flex-direction: column;
+    display: block;
+    align-content: center;
+  }
+  .foot{
+    flex-direction: column;
+    width: 70%;
+    gap: 30px;
+    margin: auto;
+  }
+  h3{
+    width: 70%;
+    flex-direction: column;
+    margin: auto;
+
+  }
+  .tv{
+    flex-direction: column;
+    width: 30%;
+    margin: 30px auto;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+  }
+  
+}

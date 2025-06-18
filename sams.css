@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.entete-repair{
+  display: flex;
+  width: 100%;
+      background: #d2e1ec;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+
+
+
+.div-2 {
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+    background-color: #FCD116;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+.div-content {
+    height: 90px;
+    max-width: 100%;
+    position: relative;
+    display: flex
+;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+  display: flex;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+nav{
+  background-color: #505050;;
+      display: flex;
+      align-items: center;
+  height: 60px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 10px 24px ;
+  z-index: 999;
+}
+
+
+nav >ul {
+  display: flex;
+  width:max-content;
+  margin: 0 auto;
+}
+nav ul li a{
+  width: 260px;
+  padding: 10px 0;
+  text-align: center;
+  display: block;
+}
+nav ul li {
+  vertical-align: middle;
+}
+nav ul li a:hover{
+  color: #ffd900;
+}
+nav ul li {
+  position: relative;
+}
+
+nav ul li ul {
+  position: absolute;
+  left: 0;
+  background-color: #505050;
+  /* visibility: hidden x; */
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+nav ul li:hover ul{
+  visibility: visible;
+  opacity: 1;
+  box-shadow: var(--shadow);
+}
+
+.img-laptop{
+    display: flex;
+    height: auto;
+    
+    
+}
+.lap{
+    color: #cc9900;;
+
+}
+.div1-1{
+    display: flex;
+    
+}
+.img-phone{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    height: auto;
+   
+}
+.img-houre{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+
+.tv{
+    display: flex;
+}
+.tv{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+
+}
+.Tiphone{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px -4px 10px 0px #181616;
+}
+.Tiphone:hover{
+  background-color: #6a696e;
+}
+.Tiphone{
+  transition: 0.6s;
+}
+
+
+.rapide{
+  display: flex;
+  /* gap: 10px
+  ;
+  flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+}
+.ldj{
+  background: #57f5ea73;
+  margin: 40px auto;
+  width: 300px;
+  padding: 10px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: justify;
+  flex-direction: column;
+box-shadow: 2px 0px 11px 2px #0f0f0f
+}
+.ldj:hover{
+  background-color: white;
+  
+  transform: translatey(10px);
+}
+.ldj{
+  transition: 0.6s;
+  
+
+}
+.m35 {
+  height: 450px;
+}
+.slider {
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+}
+.slide-track {
+    display: flex;
+    justify-content: space-around;
+    animation: scroll 10s linear infinite;
+    width: calc(300px * 6);
+    height: 400px;
+}
+.slide img{
+  width: 100px;
+  height: 100px;
+  flex-shrink: 1;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform:translatex(100%);
+  }
+}
+
+
+
+.commander{
+  background-color: #FCD116;
+  padding: 20px 80px;
+  border-radius: 15px ;
+}
+.button .commander{
+  text-align: center;
+}
+.toi{
+  display: flex;
+  justify-content: center;
+  
+  margin: 10px auto;
+}
+
+
+.p7{
+    font-size: 2.3rem;
+    color: #FCD116;
+
+}
+
+
+.ligne-droite{
+    padding: 0 30px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.face{
+    height: 32px;
+    width: 32px;
+}
+.p6{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.p15{
+    color: white;
+    font-size: 1.5rem;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.74);
+    display: block;
+    justify-content: space-around;
+}
+.foot{
+    margin: 20px 0;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.p7{
+  text-align: center;
+  padding: 10px 0;
+}
+
+.background-samsung{
+  background-color: #6a696e;
+  justify-content: space-between;
+  display: flex;
+  height: auto;
+}
+.sms{
+  height: 450px;
+  width: 400px;
+}.content{
+  width: 60%;
+  margin: auto;
+ 
+}
+.para{
+  font-size: 1.1rem;
+  color: white;
+}
+
+.idr{
+  height: 90px;
+  display: block;
+  padding: 0 30%;
+  text-align: center;
+}
+h3{
+      font-size: 2rem;
+    }
+
+
+
+
+
+
+
+@media screen and (max-width:620px) {
+  .background-samsung{
+    display: block;
+  }
+  .content{
+    width: 100%;
+  }
+  .sms{
+    width: 100%;
+    
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width:900px) {
+  #espace{
+
+        background-color: rgb(31, 29, 29);
+        list-style: none;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        left: 80%;
+        
+    }
+
+
+
+
+
+  .content{
+    width: 30%;
+  }
+  .para{
+    font-size: 1rem;
+    color: white;
+
+  }
+  .rapide{
+    flex-direction: column;
+    align-content: center;
+  }
+  .ipad-image{
+    flex-direction: column;
+    display: block;
+    align-content: center;
+  }
+  .foot{
+    flex-direction: column;
+    width: 70%;
+    gap: 30px;
+    margin: auto;
+  }
+  h3{
+    width: 70%;
+    flex-direction: column;
+    margin: 20px auto;
+    font-size: 2rem;
+    
+
+  }
+  .tv{
+    flex-direction: column;
+    width: 30%;
+    margin: 30px auto;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:1125px){
+    .formulaire{
+       display: none;
+    }
+    nav{
+      height: 250px;
+      flex-direction: column;
+    }
+    .entete-repair nav ul{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+       
+    }
+    .search{
+      margin: 0 auto; 
+    }
+    h1 {
+      display: none;
+    }
+    h2{
+      display: none;
+    }
+    h3{
+      font-size: 2rem;
+    }
+      
+}
