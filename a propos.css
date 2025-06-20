@@ -3,24 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+main{
+   background-color: rgb(22, 95, 168);
+}
+h1{
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 10px;
+  color: #FCD116;
+  font-weight: 900;
+  padding: 40px ;
+}
+span{
+  color: #FCD116;
+}
 .propos{
     display: flex;
     gap: 10px
     ;
-    background-color: rgb(149, 158, 167);
+    background-color: rgba(149, 158, 167, 0.603);
    
     margin:auto;
     box-shadow: 0 0 0 0 black;
     padding: 10px;
 }
 p{
-    color: black;
+    color: rgb(252, 249, 249);
     font-size: 1.3rem;
+    font-weight: 700;
 }
 .ligne-droite{
     padding: 0 30px;
     border-left: 1px solid white;
     border-right: 1px solid white;
+}
+img{
+  height: 200px;
 }
 .face{
     height: 32px;
@@ -49,18 +67,6 @@ footer{
     color: #FCD116;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:900px) {
   .rapide{
     flex-direction: column;
@@ -73,6 +79,7 @@ footer{
   }
   .foot{
     flex-direction: column;
+    text-align: center;
     width: 70%;
     gap: 30px;
     margin: auto;
