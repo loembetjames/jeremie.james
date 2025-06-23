@@ -170,12 +170,6 @@ footer{
     background-position: center;
     height: 100vh;
   }
-
-
-
-
-
-
   .content-form{
     gap: 50px;
     width: 100%;
@@ -191,6 +185,7 @@ footer{
   }
   .foot{
     flex-direction: column;
+    text-align: center;
     width: 70%;
     gap: 30px;
     margin: auto;
