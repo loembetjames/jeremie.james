@@ -818,6 +818,11 @@ select{
   }
   
 }
+
+ul li  a:hover{
+    border-bottom: 3px solid #FCD116;
+    width: 110px;
+}
 @media screen and (max-width:850px){
     .prendre{
          padding: 5px;
@@ -832,10 +837,8 @@ select{
         padding: 10px;
         position: absolute;
         top: 0;
-        left: 90%;
-        
+        left: 90%; 
     }
-
     .div-nav, .div-nav ul{
     flex-direction: column;
     align-items: center; 
@@ -852,7 +855,43 @@ select{
 .p10{
     display: none;
 }
-      
+.search-container {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+.search img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.search-box{
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 } 
 
 @media screen and (max-width:1110px){
