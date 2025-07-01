@@ -1,15 +1,10 @@
-* ,html{
+*,html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   p5{
-    color: rgb(110, 109, 109);
-    display: block;
-   }
-    /* overflow-x: hidden; */
-    
-
+    font-family: 'Roboto', sans-serif; 
 }
+    
 header{
     margin: 0;
     padding: 0;
@@ -560,9 +555,11 @@ footer{
   }
 
 @media screen and (max-width:900px) {
+  .p10{
+    display: none;
+  }
 
   #espace{
-
         background-color: rgb(31, 29, 29);
         list-style: none;
         padding: 10px;
@@ -598,6 +595,7 @@ footer{
   }
   footer{
     flex-direction: column;
+    text-align: center;
   
   }
   .ligne-droite{
@@ -605,6 +603,7 @@ footer{
   }
   .foot{
     flex-direction: column;
+    text-align: center;
     width: 70%;
     gap: 30px;
     margin: auto;

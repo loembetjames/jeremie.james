@@ -4,25 +4,32 @@
     box-sizing: border-box;
 }
 main{
-   background-color: rgb(22, 95, 168);
+   background-color: rgba(28, 28, 29, 0.651);
 }
-h1{
-  border: 1px solid black;
+h1 , h2, h3{
   text-align: center;
-  border-radius: 10px;
   color: #FCD116;
   font-weight: 900;
-  padding: 40px ;
+  padding: 10px auto;
+  display: block;
 }
+ul{
+  display: flex;
+  justify-content: right;
+   font-size: 1rem;
+}
+li{
+  color: white;
+  padding: 50px auto;
+  font-size: 1rem;
+}
+
 span{
   color: #FCD116;
 }
+
 .propos{
-    display: flex;
-    gap: 10px
-    ;
-    background-color: rgba(149, 158, 167, 0.603);
-   
+    gap: 10px;
     margin:auto;
     box-shadow: 0 0 0 0 black;
     padding: 10px;
@@ -68,6 +75,12 @@ footer{
 
 }
 @media screen and (max-width:900px) {
+  h1{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
   .rapide{
     flex-direction: column;
     align-content: center;
@@ -89,8 +102,9 @@ footer{
     flex-direction: column;
     margin: 20px auto;
     font-size: 2rem;
-    
-
+  }
+  h2{
+    padding: 10px auto;
   }
   .tv{
     flex-direction: column;
