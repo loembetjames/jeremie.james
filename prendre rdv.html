@@ -38,22 +38,22 @@
             </div>
             <div class="contact-form" id="pid">
             <h3>Contactez nous</h3>
-            <form action="" method="post">
-                <label for="">Nom:</label><br>
-              <input type="text" name="name" placeholder="Nom" required class="ipt"><br>
-                <label for="">Prenom:</label><br>
-              <input type="text" class="ipt"><br>
-               <label for="">Email:</label><br>
-              <input type="email" name="E-mail" placeholder="email" class="ipt"/><br>
-              <label for="">Telephone:</label><br>
+            <form action="traitement.php" method="post">
+                <label for="lt">Nom:</label><br>
+              <input type="text" name="name" placeholder="Nom" required class="ipt" id="lt"><br>
+                <label for="ltp">Prenom:</label><br>
+              <input type="text" class="ipt" id="ltp"><br>
+               <label for="ltpb">Email:</label><br>
+              <input type="email" name="E-mail" placeholder="email" class="ipt" id="ltpb"/><br>
+              <label for="btp">Telephone:</label><br>
               <input
                 type="text"
                 name="number"
                 placeholder="Telephone" class="ipt"
                 required
-              /> <br>
-              <label for="">Unité/Modèle:</label><br>
-              <select name="" id="">
+              id="btp"/> <br>
+              <label for="btpn">Unité/Modèle:</label><br>
+              <select name="Selection" id="btpn">
                 <option value="">Sélectionnez l'appareil</option>
                 <optgroup label="Samsung Galaxy S">
                     <option value="">Samsung S10 5G</option>
@@ -93,16 +93,18 @@
     </main>
      <footer>
       <section>
-       <p class="p7">@LOEMBET-Dieny-Jeremie</p>
+       <p class="p7">&copy;Copyright realisation du site de raparation ordinateur par LOEMBET-Dieny-Jeremie</p>
        </section>
        <section class="foot">
       <div class="ligne-droite">
         <p class="p6">NOS SERVICES</p>
         <span class="p15">
-          <p>Reparation d'appareil electronique</p>
+          <p>Reparation d'ordinateur</p><p></p>
+          <p>Réparation de téléphones</p>
+          <p>Installation de logiciels </p>
+          <p>Nettoyage système & virus</p>
         <p>Maintenance froid et climatisation</p>
-        <p>Electricité batiments</p>
-        <p>Livraison à domicile</p>
+        <p><a href="./prendre rdv.html">Contactez-nous &#8594;</a> </p>
         </span>
       </div>
       <div class="ligne-droite">
