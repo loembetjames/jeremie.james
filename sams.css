@@ -14,11 +14,6 @@
   align-items: center;
 
 }
-
-
-
-
-
 .div-2 {
     display: flex
 ;
@@ -246,9 +241,14 @@ box-shadow: 2px 0px 11px 2px #0f0f0f
     height: 32px;
     width: 32px;
 }
+.call{
+  height: 50px;
+}
 .p6{
     font-size: 2rem;
+    color: #ffc822;;
     padding-bottom: 10px;
+    text-align: center;
 }
 .p15{
     color: white;
@@ -257,6 +257,7 @@ box-shadow: 2px 0px 11px 2px #0f0f0f
 footer{
     background-color: rgba(0, 0, 0, 0.74);
     display: block;
+    text-align: center;
     justify-content: space-around;
 }
 .foot{

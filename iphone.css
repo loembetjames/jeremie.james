@@ -12,14 +12,9 @@
   align-items: center;
 
 }
-
-
-
-
-
-
-
-
+.call{
+  height: 50px;
+}
 .div-2 {
     display: flex
 ;
@@ -74,6 +69,7 @@
 }
 .p15{
   color: white;
+  font-size: 1.4rem;
 }
 nav{
   color: white;
@@ -263,28 +259,6 @@ box-shadow: 2px 0px 11px 2px #0f0f0f;
 .content-iphone{
   display: flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     background-color: rgba(0, 0, 0, 0.74);
     display: block;
@@ -297,7 +271,7 @@ footer{
     justify-content: space-around;
 }
 .p7{
-    font-size: 2.3rem;
+    font-size: 1.4rem;
     color: #FCD116;
 
 }
@@ -351,39 +325,6 @@ footer{
 a{
     color: #ffffff;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 h4{
   text-align: center;
 }
@@ -399,11 +340,6 @@ h4{
         left: 70%;
         
     }
-
-
-
-
-
   .rapide{
     flex-direction: column;
     align-content: center;
@@ -416,6 +352,7 @@ h4{
   .foot{
     flex-direction: column;
     width: 70%;
+    text-align: center;
     gap: 30px;
     margin: auto;
   }
