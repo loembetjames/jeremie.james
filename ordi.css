@@ -18,12 +18,11 @@ nav li ul{display:block}
 nav ul li{position:relative}
 nav ul li a{padding:10px 0;text-align:center;display:block}
 #espace{padding-bottom:10px;margin-top:170px}
-
 .navigation{background-color:rgb(0 0 0 / .74); height: auto;}
 .div-nav ul li{display:flex;align-items:center;width:230px;justify-content:space-around;list-style-type:none;padding:5px 40px;transition:all 0.5s ease-in-out}
 .div-nav ul li:hover{background-color:#fff}
 .div-nav ul li:hover a{color:#FCD116}
-.search{padding:8px;margin:10px}
+.search{margin:8px;}
 .search:hover{background-color:#FCD116}
 nav ul li:hover ul{visibility:visible;opacity:1;box-shadow:var(--shadow)}nav ul li ul{position:absolute;left:0;background-color:#505050;opacity:0;transition:all 0.2s ease}
 .proposition{display:block;align-items:center;text-align:center}
@@ -43,6 +42,36 @@ nav ul li:hover ul{visibility:visible;opacity:1;box-shadow:var(--shadow)}nav ul 
 
 .div-nav{display:flex;justify-content:space-around;width:100%; height: auto;
     align-items: center;}.pt{display:flex;gap:50px}.repair-computer{height:500px;width:100%;margin-bottom:20px}.prix1{background-color:blue;padding:7px;margin:8px auto}.p10{font-size:1.5rem}.liste3,.liste2 p{text-align:center}.liste1{text-align:center}.face{height:32px;width:32px}.p7{font-size:2.3rem;text-align:center;color:#fcd116}.p6{font-size:2rem;padding-bottom:10px;color:#fcd116}ul li a{list-style:none;text-decoration:none}footer{background-color:rgb(0 0 0 / .74);display:block;justify-content:space-around}.ligne-droite{padding:0 30px;border-left:1px solid #fff;border-right:1px solid #fff}.foot{display:flex;justify-content:space-around;margin:20px 0;padding:30px 0}.p15{color:#fff;font-size:1.5rem}h5{font-size:1.6rem}h3{text-align:center;margin:20px}h2{text-align:center;margin:20px}.color{text-align:center;background-color:#696b6b}.p1{margin:10px}.igt{text-align:center;height:127px;width:120px}.infos{display:flex;margin:15px 10px;justify-content:space-around;gap:10px}.form1{text-align:center;width:20%;height:auto;padding:8px;border:1px solid #000}#carrousel{width:auto;overflow:hidden}.defile{display:flex;justify-content:space-between;animation-duration:70s;animation-name:mesimages;animation-iteration-count:infinite}.bloc1{border:1px solid #000;margin:0 20px}@keyframes mesimages{0%{transform:translateX(0)}25%{transform:translateX(-1500px)}50%{transform:translateX(-3000px)}75%{transform:translateX(-4500px)}}.back{background-color:#f6f8f8;height:auto}.contenair:hover{transform:translateY(10px)}.contenair{transition:0.6s}form{background-color:#505050;border-radius:15px;box-shadow:-3px 5px 18px 2px #000;padding:30px;color:#fff;margin:30px auto;width:60%}input{padding:10px 0;width:100%;border-radius:7px}textarea{width:100%;padding:0 10px;border-radius:10px}.button1{padding:10px 20px;width:100%;border-radius:10px;background-color:#FCD116}.button1:hover{transition:0.8s ease;color:#fff;background-color:blue}
+    .ctp{
+        background-color: #2a2a2a;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    nav ul li a {
+    width: 260px;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+ul li{
+  width: 260px;
+}
+.search {
+    background-color: #fcd116;
+    border: 1px solid #fff;
+    margin-right: 100px;
+}
+.Itn {
+    height: 30px;
+}
+.div-nav ul li {
+    width: 280px;
+    list-style-type: none;
+    padding: 5px 40px;
+    transition: .5s ease-in-out;
+}
     
     
     
