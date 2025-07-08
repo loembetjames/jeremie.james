@@ -89,4 +89,4 @@ ul li{
         .p7{
             font-size: 1rem;
         }
-        .div-nav,.div-nav ul{flex-direction:column;align-items:center;background-color:rgb(0 0 0 / .295);height:auto;padding:10px;gap:20px}.liste1{flex-direction:column;margin:20px auto;width:60%}.liste2{flex-direction:column}.liste3{flex-direction:column}.test1{flex-direction:column}.test2{flex-direction:column}.infos{flex-direction:column;display:flex;align-items:center}.form1{width:60%}}
+        .ctp,.nav-menu ul{flex-direction:column;align-items:center;background-color:rgb(0 0 0 / .295);height:auto;padding:10px;gap:20px}.liste1{flex-direction:column;margin:20px auto;width:60%}.liste2{flex-direction:column}.liste3{flex-direction:column}.test1{flex-direction:column}.test2{flex-direction:column}.infos{flex-direction:column;display:flex;align-items:center}.form1{width:60%}}

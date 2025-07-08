@@ -6,9 +6,8 @@ main{
    background-color: rgba(28, 28, 29, 0.651);
 }
 .div-nav, .div-nav ul {
-    color: #fff;
-    display: flex
-;
+    color: #ffffff;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #2a2a2a;
@@ -49,13 +48,13 @@ ul li{
   font-size: 1rem;
 }
 .button{
-  border-radius: 10px;
-  padding: 12px;
+  border-radius: 5px;
+  padding: 14px;
   background-color: #fcd116;
 }
 .button:hover{
   background-color: blue;
-  color: white;
+  color: #ffffff;
   transition: 1s ease all;
   cursor: pointer;
 }
@@ -80,6 +79,7 @@ h1 , h2, h3{
   text-align: center;
   color: #FCD116;
   margin: auto;
+  font-size: 1.4rem;
   font-weight: 900;
   display: block;
 }
@@ -108,7 +108,7 @@ a, span {
     color: #0c0c0c;
 }
 .p15 p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
     color: white;
 }
@@ -160,7 +160,6 @@ img{
     height: 32px;
     width: 32px;
 }
-
 .p-1{
   color: #FCD116;
   font-size: 1.7rem;
@@ -168,7 +167,7 @@ img{
 }
 .p7{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #FCD116;
 
 }
@@ -211,7 +210,6 @@ img{
     width: 70%;
     flex-direction: column;
     margin: 20px auto;
-    font-size: 2rem;
   }
   h2{
     padding: 10px auto;
@@ -224,4 +222,11 @@ img{
     align-content: center;
     align-items: center;
   }
+  .foot{
+        flex-direction: column;
+        width: 70%;
+        gap: 30px;
+        margin: auto;
+        text-align: center;
+    }
 }

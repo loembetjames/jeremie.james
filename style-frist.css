@@ -88,11 +88,12 @@ nav ul li{
     }
     .foot{
         flex-direction: column;
+        text-align: center;
         width: 60%;
         margin: auto;
         gap: 30px;
     }
-    .p6{
+    .p6,.p15,p{
         text-align: center;
     }
     .contact{

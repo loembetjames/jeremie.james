@@ -81,12 +81,12 @@
             <li><a href="./index.html">HOME</a></li>
             <li><a href="./A propos.html">À PROPOS</a></li>
 
-            <li><a href="#">SERVICES</a>   
+            <li><a href="#fnb">SERVICES</a>   
             </li>
             <li><a href="./prendre rdv.html" class="cn">CONTACTEZ-NOUS</a></li>
           </ul>
           </nav>
-          <div class="search-container">
+          <div class="search-container" >
              <button class="search">
             <span>
               <img
@@ -102,13 +102,13 @@
     <main>
       <section class="ingenieur">
 
-        <div class="deplace">
+        <div class="deplace" id="fnb">
           <h2 >À PROPOS DE CONFORT EXPERT</h2>\
           <span class="p19">Excellence est notre priorité</span>
         </div>
       </section>
 
-      <section class="employer">
+      <section class="employer" >
         <div>
           <img src="./stakeholder_7741877.png" alt="" class="stake">
           <p class="p20">Over 200 employees</p>
@@ -129,9 +129,6 @@
 
       <section class="fml">
           <div class="form" >
-      
-          
-
           <p class="p1">
           Obtenez un devis !
           <span>Des questions ? Des commentaires ? Envoyez-nous un courriel ! </span>
@@ -143,46 +140,46 @@
        
 
       
-          <form action="" id="form">
+          <form action="traitement.php" id="form" method="post">
 
             <div>
-            <label for="">Nom</label>
+            <label for="name">Nom</label>
             <br>
-            <input type="text" class="ipt">
+            <input type="text" class="ipt" id="name">
             <br>
           
-            <label for="">Prenom</label><br>
-            <input type="text" class="ipt">
+            <label for="frist-name">Prenom</label><br>
+            <input type="text" class="ipt" id="frist-name">
             </div>
          
 
             <div>
-            <label for="">Telephone</label><br>
-            <input type="text" class="ipt">
+            <label for="phone">Telephone</label><br>
+            <input type="text" class="ipt" id="phone">
             <br>
 
-            <label for="">Email</label><br>
+            <label for="email">Email</label><br>
             <input type="email" class="ipt">
             </div>
 
-            <label for="">Etes-vous proprietaire du bien ?</label>
+            <label>Etes-vous proprietaire du bien ?</label>
             <br>
 
             <input type="radio" id="oui">
             <label for="oui">Oui</label>
             <br>
-            <input type="radio">
-            <label for="">Non</label>
+            <input type="radio" id="radio">
+            <label for="radio">Non</label>
             <br>
 
             <label for="">Adresse</label><br>
-            <input type="text" class="ipt"><br>
+            <input type="text" class="ipt" name="text"><br>
             
 
-            <label for="">Ville</label><br>
+            <label for="vt">Ville</label><br>
 
 
-            <select name="" id="" class="ipt">
+            <select name="selectionnez" id="" class="ipt">
               <option value="">Selectionnez la ville</option>
               
               <optgroup>
@@ -200,13 +197,13 @@
             <label for="">Climatiseur</label>
 
             <br>
-            <input type="radio">
-            <label for="">Chauffage au gaz naturel</label>
+            <input type="radio" id="rd">
+            <label for="rd">Chauffage au gaz naturel</label>
 
             <br>
 
-            <input type="radio">
-            <label for="">Nettoyage des conduites</label>
+            <input type="radio" id="rdio">
+            <label for="rdio">Nettoyage des conduites</label>
 
             
 
@@ -215,13 +212,11 @@
             <textarea name="" id="" cols="30" rows="10" placeholder="Veuillez ne pas inclure d'adresse e-mail ici" class="ipt"></textarea>
             <br>
 
-            <input type="checkbox" name="" id="">
-            <label for="">En soumettant, vous acceptez notre <span>politique de confidentialité</span></label>
+            <input type="checkbox" name="" id="smt">
+            <label for="smt">En soumettant, vous acceptez notre <span>politique de confidentialité</span></label>
             <br>
 
             <button type="submit" class="smt">SOUMETTRE</button>
-
-
           </form>
         </div>
       </section>
@@ -230,28 +225,76 @@
     <footer>
        <section class="foot">
       <div class="ligne-droite">
-        <h3>NOS SERVICES</h3>
-        <p>Reparation d'ordinateur</p><p></p>
+       <h6>
+        <p class="p6">NOS SERVICES</p>
+       </h6>
+        <span class="p15">
+          <p>Reparation d'ordinateur</p>
           <p>Réparation de téléphones</p>
           <p>Installation de logiciels </p>
           <p>Nettoyage système & virus</p>
         <p>Maintenance froid et climatisation</p>
+        <p><a href="./prendre rdv.html">Contactez-nous &#8594;</a> </p>
+        </span>
       </div>
-
       <div class="ligne-droite">
-        <h3>NOS PRODUITS</h3>
-        <p>Chauffage</p>
-        <p>Climatisation</p>
+        <p class="p6">NOS PRODUITS</p>
+        <span class="p15">
+        <p> Accessoires (chargeurs, coques, etc.)</p>
+        <p>Logiciels (antivirus, suites bureautiques)</p>
+        <p>Kits de nettoyage </p>
+        </span>
       </div>
-
       <div class="ligne-droite">
-        <h3>Contactez-nous</h3>
+        <p class="p6">Contactez-nous 
+
+        </p>
         <p class="contact">
-          <img src="./twitter_socialnetwork_20007.png" alt="" class="face">
-          <img src="./YouTube_23392.png" alt="">
-          <img src="./Whatsapp_37229.png" alt="" class="face">
-          <img src="./facebook_icon-icons.com_53612.png" alt="" class="face">
-          <img src="./3721672-instagram_108066.png" alt="" class="face">
+          <a href="">
+            <img
+  src="./twitter_socialnetwork_20007.png"
+  alt="Icône Twitter du service de réparation informatique et électronique"
+  class="face"
+  loading="lazy"
+/>
+
+          </a>
+          <a href="">
+            <img
+  src="./YouTube_23392.png"
+  alt="Icône YouTube du service de réparation informatique et électronique"
+  class="face"
+  loading="lazy"
+/>
+
+          </a>
+          <a href="">
+            <img
+  src="./Whatsapp_37229.png"
+  alt="Icône WhatsApp pour contacter le service de réparation informatique et électronique"
+  class="face"
+  loading="lazy"
+/>
+
+          </a>
+          <a href="">
+             <img
+  src="./3721672-instagram_108066.png"
+  alt="Icône Instagram du service de réparation informatique et électronique"
+  class="face"
+  loading="lazy"
+/>
+
+          </a>
+          <a href="">
+            <img
+  src="./facebook_icon-icons.com_53612.png"
+  alt="Icône Facebook du service de réparation informatique et électronique"
+  class="face"
+  loading="lazy"
+/>
+
+          </a>
         </p>
       </div>
       </section>
@@ -259,6 +302,7 @@
        <p class="p7">&copy;Copyright realisation du site de raparation ordinateur par LOEMBET-Dieny-Jeremie</p>
        </section>
     </footer>
+   
     
 </body>
 </html>

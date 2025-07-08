@@ -86,7 +86,6 @@
            alt="Icône de recherche pour trouver un service de réparation"
            class="Itn"
 />
-
             </span>
           </button>
         </div>
@@ -102,7 +101,6 @@
   alt="Technicien réparant une carte mère d’ordinateur"
   class="igt"
 />
-
             </div>
             <div>
               <img
@@ -110,7 +108,6 @@
   alt="Poste de travail moderne pour la réparation informatique"
   class="igt"
 />
-
             </div>
         </div>
       </section>
@@ -124,15 +121,14 @@
           >
         </div>
         <div class="formulaire">
-          <form action="" class="" id="menu">
-            <h5>CONTACTEZ NOUS!</h5>
-
+          <form action="traitement.php" class="" id="menu" method="post">
+            <h2>CONTACTEZ NOUS!</h2>
             <label for="name" >Nom:</label>
             <br />
-            <input type="text" name="name" placeholder="Entrez votre nom" />
+            <input type="text" name="name" placeholder="Entrez votre nom" id="name"/>
             <br />
             <br />
-            <label for="frist">Prenon:</label>
+            <label for="frist">Prenom:</label>
 
             <br />
             <input
@@ -145,27 +141,24 @@
             <br />
 
             <label for="email">Email:</label><br />
-            <input type="email" name="email" id="email"  placeholder="loemet@gmail.com"/>
+            <input type="email" name="email" id="email"  placeholder="loembet@gmail.com"/>
             <br />
             <br />
-
             <label for="phone">Telephone:</label><br />
             <input
               type="text"
               name="phone"
-              id=""
+              id="phone"
               placeholder="+242 06 405 ********"
             />
             <br />
             <br />
-
-            <label for="">Entrez votre message:</label><br><br>
-            <textarea name="" id="" cols="30" rows="10">
+            <label for="cmt">Entrez votre message:</label><br><br>
+            <textarea name="commentaire" id="cmt" cols="30" rows="10">
 Commentez le champ.......</textarea
             >
             <br />
             <br />
-
             <button class="requete">Envoyer la requette</button>
           </form>
         </div>
@@ -241,12 +234,11 @@ Commentez le champ.......</textarea
       </section>
     </main>
      <footer>
-      
        <section class="foot">
       <div class="ligne-droite">
-       <h6>
+       <h3>
         <p class="p6">NOS SERVICES</p>
-       </h6>
+       </h3>
         <span class="p15">
           <p>Reparation d'ordinateur</p>
           <p>Réparation de téléphones</p>
@@ -317,9 +309,6 @@ Commentez le champ.......</textarea
         </p>
       </div>
       </section>
-
-
-
       <section>
        <p class="p7">&copy;Copyright realisation du site de raparation ordinateur par LOEMBET-Dieny-Jeremie</p>
        </section>
