@@ -18,9 +18,9 @@
 }
 .border-form{border:2px solid #000}
 .formulaire{background-color:#262b3c;border-radius:20px;padding:25px 30px;box-shadow:1px 3px 9px 7px #201d1d;width:60%;margin:10px auto}
-.button,.requete{background-color:#fcd2169d; }
+.button,.requete{background-color:#fcd116; color: rgba(0, 0, 255, 0.877); }
 .button,.requete:hover{
-    color: #ffffff;
+   
     font-size: 1rem;
 }
 label{color:#d9dada}
@@ -28,7 +28,7 @@ label{color:#d9dada}
 .requete,h1{border-radius:10px}h1{font-size:2rem}hr{margin-bottom:30px}
 .requete{width:100%;padding:10px 60px}
 .div-content{height:90px;max-width:100%;justify-content:space-around;align-items:center}
-.img-laptop{height:auto;gap:8px}.lap{color:#c90}.prendre,span{color:#ffffff}input:hover{border:#262b3c}
+.img-laptop{height:auto;gap:8px}.lap{color:#c90}.prendre,span{color:#0a0a0a}input:hover{border:#262b3c}
 .img-houre{align-items:center;gap:10px}.img2,.young{height:200px;width:200px}
 .button{border-radius:5px;padding:10px 5px}#espace,
 .nom{padding:10px}
@@ -83,7 +83,7 @@ button:hover{transition:1.3s;background-color:#00f;color: #ffffff; font-weight: 
 .button ,.prendre:hover{
     color:#ffffff;
     font-weight: bold;
-    transition: 1s ease all;
+    transition: 0.3s ease all;
 }
 h2{
     text-align: center;
@@ -93,9 +93,17 @@ h2{
 h6{
     text-align: center;
 }
-.prendre,h5{text-align:center}.p15 a{color:#ffffff;}h2{font-size:1.7rem}textarea{width:100%;border-radius:10px;padding:6px 20px}.sel,select{border:none}.prendre{font-size:1.4rem}.sel{font-size:1.6rem}.sel:hover{color:#292f44}.maps,.whatsp{height:50px}.maps:hover{transform:scale(1.4)}.position a{transition:.3s}.position{position:fixed;z-index:9999;left:0;bottom:10%}.face:hover,.whatsp:hover{transform:scale(1.6)}.call{height:50px}.position:hover{cursor:pointer;transition:.3s;margin-left:1.3rem}.modele{top:0;position:absolute;width:100%;height:100vh;opacity:1;background-color:#0f0f0f9a;animation:1s ease-in forwards fenetre;z-index:1001}@keyframes fenetre{0%{top:0}50%{top:-50%}100%{top:-100%}}ul li a:hover{border-bottom:3px solid #fcd116}
+.h5{text-align:center}.p15 a{color:#ffffff;}h2{font-size:1.7rem}textarea{width:100%;border-radius:10px;padding:6px 20px}.sel,select{border:none}
+.prendre{font-size:1.2rem;color: #000;}.sel{font-size:1.6rem}.sel:hover{color:#292f44}.maps,.whatsp{height:50px}.maps:hover{transform:scale(1.4)}.position a{transition:.3s}.position{position:fixed;z-index:9999;left:0;bottom:10%}.face:hover,.whatsp:hover{transform:scale(1.6)}.call{height:50px}.position:hover{cursor:pointer;transition:.3s;margin-left:1.3rem}.modele{top:0;position:absolute;width:100%;height:100vh;opacity:1;background-color:#0f0f0f9a;animation:1s ease-in forwards fenetre;z-index:1001}@keyframes fenetre{0%{top:0}50%{top:-50%}100%{top:-100%}}ul li a:hover{border-bottom:3px solid #fcd116}
 
 @media screen and (max-width:450px){
+    .position {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    bottom: 10%;
+}
+
     #espace{width:auto}.div-nav ul li a{width:100px}
     .p7{
            font-size: 1rem;
